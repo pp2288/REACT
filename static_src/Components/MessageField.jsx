@@ -10,7 +10,7 @@ export default class MessageField extends React.Component {
        if (this.state.messages[this.state.messages.length - 1].sender === 'me') {
            setTimeout(() =>
                    this.setState({
-                       messages: [ ...this.state.messages, {text: 'Не приставай ко мне, я робот!', sender: 'bot'} ] }), 1000);
+                       messages: [ ...this.state.messages, {text: 'Не приставай ко мне, я робот !', sender: 'bot'} ] }), 1000);
        }
    }
 
