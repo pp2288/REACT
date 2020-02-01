@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MessageField from './components/MessageField.jsx';
+import Layout from './components/Layout';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 ReactDOM.render(
-   <MessageField/>,
+    <MuiThemeProvider>
+        <Layout />
+   </MuiThemeProvider>,
    document.getElementById('root'),
 );

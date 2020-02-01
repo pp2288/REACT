@@ -1,0 +1,63 @@
+.message-field {
+   display: flex;
+    flex-direction: column;
+    background-color: #d8ffcf;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.layout {
+   height: 100%;
+   width: 50%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.message {
+   background-color: #ace1af;
+   padding: 5px 15px;
+   border-radius: 20px;
+   font-size: 18px;
+   margin: 5px;
+}
+
+.message-sender {
+   color: gray;
+   font-size: 14px;
+}
+.layout {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout-area {
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #9ebf95;
+}
+
+.leftarea {
+    height: 100%;
+    width: 30%;
+	background-color: #9ebf95;
+}
+
+.rightarea {
+    height: 100%;
+    width: 70%;
+}
