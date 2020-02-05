@@ -1,5 +1,3 @@
 node_modules
 .idea
 static
-/webpack.config.js
-*.config.js
