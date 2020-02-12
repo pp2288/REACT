@@ -9,6 +9,20 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+.profile {
+   height: 100%;
+   width: 50%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #d8ffcf;
+}
+
+>>>>>>> master
 .layout {
    height: 100%;
    width: 50%;
